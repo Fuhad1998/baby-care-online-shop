@@ -1,0 +1,13 @@
+.img-box:hover{
+    transform: scale(1.1);
+    }
+
+
+    .card-container{
+        overflow: hidden;
+        
+    }
+
+    .card-container:hover{
+        border: 1px solid gray;
+    }
