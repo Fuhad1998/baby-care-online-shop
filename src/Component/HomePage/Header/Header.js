@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 
 
 
@@ -16,7 +17,7 @@ const Header = ({props}) => {
 
 
     return (
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1 }} className="">
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -29,9 +30,10 @@ const Header = ({props}) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            <Link className='text-white' to="/homes">Home</Link>
+            <Link className='text-white' to="/productDetail">Details</Link>
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Link className='text-white' to="/login">Login</Link>
         </Toolbar>
       </AppBar>
     </Box>

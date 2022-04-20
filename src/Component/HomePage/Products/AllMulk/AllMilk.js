@@ -1,16 +1,11 @@
-
-import { Button } from '@mui/material';
 import React from 'react';
-import { Card, CardGroup } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import "./Milk.css"
+import { Button, Card } from 'react-bootstrap';
 
-const Milk = ({milk}) => {
-    const {img, name, price,} = milk;
+const AllMilk = ({allMilk}) => {
+    const { name, price, img} = allMilk
     return (
-        
-        <CardGroup className='col-md-3 col-xs-12 col-sm-12  group-container '>
-        {/* <Link className='link-name' to="/productDetail"> */}
+        <div className='col-md-3 col-xs-12 col-sm-12  group-container '>
+              {/* <Link className='link-name' to="/productDetail"> */}
       <Card className=' card-container my-2'>
         <Card.Img className='img-box p-2' variant="top" src={img} />
         <Card.Body className=' '>
@@ -24,11 +19,8 @@ const Milk = ({milk}) => {
       </Card>
       
       {/* </Link> */}
-      
-    </CardGroup>
-  
- 
+        </div>
     );
 };
 
-export default Milk;
+export default AllMilk;

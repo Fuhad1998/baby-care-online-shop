@@ -11,3 +11,15 @@
     .card-container:hover{
         border: 1px solid gray;
     }
+
+    .see-btn{
+        width: 120px;
+        
+        
+        margin: auto;
+        
+        
+    }
+    .link-btn{
+        text-decoration: none;
+    }

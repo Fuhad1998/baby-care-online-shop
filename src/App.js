@@ -1,38 +1,33 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  
-} from "react-router-dom";
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
 import Footer from "./Component/HomePage/Footer/Footer";
 import Header from "./Component/HomePage/Header/Header";
 import Homes from "./Component/HomePage/Homes/Homes";
+import AllMilks from "./Component/HomePage/Products/AllMilks/AllMilks";
 import Milks from "./Component/HomePage/Products/Milks/Milks";
+import Login from "./Component/Login/Login";
 import ProductDetail from "./Component/ProductDetail/ProductDetail";
-
+import Register from "./Component/Register/Register";
 
 function App() {
   return (
     <div className="App bg-light">
-     <Router>
-       <Header></Header>
-       <Switch>
-          <Route path="/productDetail">
-            <ProductDetail></ProductDetail>
-          </Route>
-          <Route path="/milks">
-            <Milks></Milks>
-          </Route>
-          <Route path="/homes">
-            <Homes></Homes>
-          </Route>
-          <Route  path="/">
-            <Homes></Homes>
-          </Route>
-       </Switch>
-       <Footer></Footer>
-     </Router>
+      <BrowserRouter>
+        <Header></Header>
+        <Routes>
+          <Route path="/register" element={<Register />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/allMilks" element={<AllMilks />}></Route>
+
+          <Route path="/productDetail" element={<ProductDetail />}></Route>
+
+          <Route path="/milks" element={<Milks />}></Route>
+
+          <Route path="/homes" element={<Homes />}></Route>
+          <Route path="/" element={<Homes />}></Route>
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter>
     </div>
   );
 }
