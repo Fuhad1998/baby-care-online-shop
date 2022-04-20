@@ -8,11 +8,18 @@ const ProductDetail = () => {
     const [product, setProduct] = useState([]);
     const { id } = useParams();
 
+    // console.log(product)
+
     const item = product.find((pd) => pd.id == id);
-    console.log(item)
+    // console.log(item)
 
     useEffect(() => {
         fetch("/cloth.json")
+          .then((res) => res.json())
+          .then((data) => setProduct(data));
+      }, []);
+    useEffect(() => {
+        fetch("/data.json")
           .then((res) => res.json())
           .then((data) => setProduct(data));
       }, []);
@@ -30,7 +37,7 @@ const ProductDetail = () => {
             <p className="product-det">Description: {item?.description}</p>
             <h4 className=" text-danger product-det pb-2">Price: {item?.price}</h4>
             
-            <Button className="d-grid justify-content-start bg-danger text-white p-2 addToCart-btn">Add To Cart</Button>
+            <Button className="d-grid justify-content-start bg-danger text-white p-2 addToCart-btn"><Link to="/addToCart" className='link-cart'>Add To Cart</Link></Button>
           </div>
         </div>
       </div>

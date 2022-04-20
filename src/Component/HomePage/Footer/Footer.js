@@ -19,12 +19,12 @@ const Footer = () => {
           <h4 className="p-2 information-link"><Link className="link-text" to="/delivery">Delivery</Link></h4>
         </div>
         <div className="col-md-4 col-xs-12 col-sm-12 p-5">
-          <h2 className="p-2 information-link">Contact Us</h2>
+          <h2 className="p-2 information-link">CONTACT US</h2>
           <h4 className="p-2 information-link">
             <a className="link-text" href="https://web.facebook.com/"><i className="fab fa-facebook text-primary"> </i> Facebook</a>
           </h4>
           <h4 className="p-2 information-link link-text">
-          <i className="fab fa-twitter text-danger "> </i> Twitter
+          <i className="fab fa-twitter text-primary "> </i> Twitter
           </h4>
           <h4 className="p-2 information-link">
             <a className="link-text" href="https://www.youtube.com/"><i className="fab fa-youtube text-danger"> </i> Youtube</a>

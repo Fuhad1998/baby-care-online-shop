@@ -6,3 +6,11 @@
     text-align: justify;
     text-align: start;
 }
+
+.link-cart{
+    text-decoration: none;
+    color: white;
+}
+.link-cart:hover{
+    color: white;
+}

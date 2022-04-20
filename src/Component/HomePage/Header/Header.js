@@ -33,6 +33,7 @@ const Header = ({props}) => {
             <Link className='text-white' to="/homes">Home</Link>
             
           </Typography>
+          <Link className='text-white' to="/addToCart">Cart</Link>
           <Link className='text-white' to="/login">Login</Link>
         </Toolbar>
       </AppBar>
