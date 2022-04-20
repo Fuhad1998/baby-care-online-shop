@@ -31,7 +31,7 @@ const Header = ({props}) => {
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link className='text-white' to="/homes">Home</Link>
-            <Link className='text-white' to="/productDetail">Details</Link>
+            
           </Typography>
           <Link className='text-white' to="/login">Login</Link>
         </Toolbar>
