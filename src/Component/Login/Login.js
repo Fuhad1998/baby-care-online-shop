@@ -1,17 +1,22 @@
+import { CircularProgress } from '@mui/material';
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import UseAuth from '../../Hooks/UseAuth';
 import "./Login.css"
 
 const Login = () => {
     const { register, handleSubmit } = useForm();
+    const {loginUser, isloding, signInUsingGoole} = UseAuth();
+  // const location = useLocation();
+  // const history = useHistory();
     
     
     
   
   
     const onSubmit = (data) => {
-      
+      loginUser(data.email, data.password)
       alert("Register success");
     };
   
@@ -20,7 +25,7 @@ const Login = () => {
     }
     return (
         <div className="container   login-container my-5 shadow-lg">
-       <form className="login-from" onSubmit={handleSubmit(onSubmit)}>
+       { ! isloding && <form className="login-from" onSubmit={handleSubmit(onSubmit)}>
         <h2 className="py-2 register-name">Log in</h2>
         <input
           className="input-btn p-2 rounded"
@@ -56,8 +61,8 @@ const Login = () => {
             NEW USER? PLEASE REGISTER
           </button>
         </Link>
-      </form>
-      
+      </form>}
+      {isloding && <CircularProgress />}
     </div>
     );
 };

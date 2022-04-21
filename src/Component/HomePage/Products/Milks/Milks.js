@@ -14,9 +14,7 @@ const Milks = () => {
   return (
     <div>
       <h1 className="p-4">Baby Milk</h1>
-      <Button className="see-btn py-2 fw-bold fs-5" variant="info">
-        <Link className="link-btn text-white " to="/allMilks">See All</Link>
-      </Button>
+      
       <div className="row ">
         {milks.map((milk) => (
           <Milk key={milk.id} milk={milk}></Milk>

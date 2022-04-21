@@ -17,12 +17,17 @@ const ProductDetail = () => {
         fetch("/cloth.json")
           .then((res) => res.json())
           .then((data) => setProduct(data));
-      }, []);
-    useEffect(() => {
-        fetch("/data.json")
+
+          fetch("/data.json")
           .then((res) => res.json())
           .then((data) => setProduct(data));
+
       }, []);
+    // useEffect(() => {
+    //     fetch("/data.json")
+    //       .then((res) => res.json())
+    //       .then((data) => setProduct(data));
+    //   }, []);
     return (
         <div className="container my-5">
         <div className="row">

@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import AboutUs from "./Component/AboutUs/AboutUs";
+import AddAProduct from "./Component/AddAProduct/AddAProduct";
 import AddToCart from "./Component/AddToCart/AddToCart";
 import Delivery from "./Component/Delivery/Delivery";
 import Footer from "./Component/HomePage/Footer/Footer";
@@ -12,16 +13,28 @@ import Cloths from "./Component/HomePage/Products/Cloths/Cloths";
 import Milks from "./Component/HomePage/Products/Milks/Milks";
 import Toys from "./Component/HomePage/Products/Toys/Toys";
 import Login from "./Component/Login/Login";
+import MakeAdmin from "./Component/MakeAdmin/MakeAdmin";
+import ManageAllOrders from "./Component/ManageAllOrders/ManageAllOrders";
+import MyOrders from "./Component/MyOrders/MyOrders";
 import ProductDetail from "./Component/ProductDetail/ProductDetail";
 import Register from "./Component/Register/Register";
+import Reviews from "./Component/Reviews/Reviews";
 import Terms from "./Component/Terms/Terms";
+import AuthProvider from "./Context/AuthProvider/AuthProvider";
 
 function App() {
   return (
     <div className="App bg-light">
+      <AuthProvider>
       <BrowserRouter>
         <Header></Header>
         <Routes>
+          
+          <Route path="/makeAdmin" element={<MakeAdmin />}></Route>
+          <Route path="/addAProduct" element={<AddAProduct />}></Route>
+          <Route path="/manageAllOrders" element={<ManageAllOrders />}></Route>
+          <Route path="/myOrders" element={<MyOrders />}></Route>
+          <Route path="/reviews" element={<Reviews />}></Route>
           <Route path="/addToCart" element={<AddToCart />}></Route>
           <Route path="/allCloths" element={<AllCloths />}></Route>
           <Route path="/about" element={<AboutUs />}></Route>
@@ -42,6 +55,7 @@ function App() {
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }
