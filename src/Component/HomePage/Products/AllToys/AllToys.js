@@ -1,27 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import Toy from '../Toy/Toy';
+import AllToy from '../AllToy/AllToy';
 
-const Toys = () => {
-    const [toys, setToys] = useState([]);
+const AllToys = () => {
+    const [allToys, setAllToys] = useState([])
 
     useEffect(()=>{
         fetch("/toy.json")
         .then(res => res.json())
-        .then(data => setToys(data.slice(0, 8)))
+        .then(data => setAllToys(data))
     }, [])
     return (
         <div className='shadow bg-white my-5'>
         <h1 className='p-3'>Baby Toys</h1>
         <div className='row'>
             {
-                toys.map(toy => <Toy
-                key={toy.id}
-                toy={toy}
-                ></Toy>)
+                allToys.map(allToy => <AllToy
+                key={allToy.id}
+                allToy={allToy}
+                ></AllToy>)
             }
         </div>
         </div>
     );
 };
 
-export default Toys;
+export default AllToys;

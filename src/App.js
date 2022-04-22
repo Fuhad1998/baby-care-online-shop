@@ -9,6 +9,7 @@ import Header from "./Component/HomePage/Header/Header";
 import Homes from "./Component/HomePage/Homes/Homes";
 import AllCloths from "./Component/HomePage/Products/AllCloths/AllCloths";
 import AllMilks from "./Component/HomePage/Products/AllMilks/AllMilks";
+import AllToys from "./Component/HomePage/Products/AllToys/AllToys";
 import Cloths from "./Component/HomePage/Products/Cloths/Cloths";
 import Milks from "./Component/HomePage/Products/Milks/Milks";
 import Toys from "./Component/HomePage/Products/Toys/Toys";
@@ -30,6 +31,7 @@ function App() {
         <Header></Header>
         <Routes>
           
+          <Route path="/allToys" element={<AllToys />}></Route>
           <Route path="/makeAdmin" element={<MakeAdmin />}></Route>
           <Route path="/addAProduct" element={<AddAProduct />}></Route>
           <Route path="/manageAllOrders" element={<ManageAllOrders />}></Route>

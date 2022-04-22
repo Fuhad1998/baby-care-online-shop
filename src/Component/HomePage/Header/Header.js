@@ -13,20 +13,20 @@ const Header = () => {
 
 
     return (
-      <Navbar expand={false}   >
+      <Navbar expand={false} className="bg-primary"  >
       <Container fluid  >
-      <Navbar.Brand href="#">Baby Care Shop</Navbar.Brand>
-          <Link  className="header-link" to="/homes">Home</Link>
+      <Navbar.Brand href="#" className='text-white'>Baby Care Shop</Navbar.Brand>
+          <Link  className="header-link text-white" to="/homes">Home</Link>
           
 
           {
             user?.email ? 
             <button 
-            // style={{backgroundColor: '#e3f2fd'}}
-            className="header-link border-0"
+            
+            className="header-link border-0 text-white"
              onClick={logOut}>Log-Out</button>
             :
-            <Link  className="header-link" to="/login">Log-In</Link>
+            <Link  className="header-link text-white" to="/login">Log-In</Link>
           }
           
           
@@ -49,7 +49,7 @@ const Header = () => {
             <Nav className="justify-content-end flex-grow-1 pe-3">
               <Link to="/allCloths">All Cloths</Link>
               <Link to="/allMilks">All Milks</Link>
-              <Link to="">All Toys</Link>
+              <Link to="/allToys">All Toys</Link>
               <Link to="/reviews">Reviews</Link>
               <Link to="/myOrders">My Order</Link>
               <Link to="/manageAllOrders">Manage All Orders</Link>

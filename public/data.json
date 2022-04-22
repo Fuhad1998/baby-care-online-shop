@@ -1,219 +1,250 @@
 [
-    {
-      "id": 1,
-      "name": "Nestlé NAN 3 Optipro 350 gm BIB",
-      "description": "NAN OPTIPRO 3 is a spray dried infant formula designed for infants from 12 m+ onwards when they are not breastfed DHA and ARA, two special fatty acids found in breast milk, which are important for your baby’s immune defense system and contribute to the development of brain and vision. Keep in mind that there is no substitute of or equivalent to breast milk.",
-      "img": "https://i.ibb.co/vstrCSQ/Whats-App-Image-2022-02-13-at-11-54-55-AM-228x228.jpg",
-      "price": "665"
-    },
-    {
-      "id": 2,
-      "name": "Nestlé NAN 3 Optipro 350 gm BIB",
-      "description": "The KTM RC 125 is powered by a 124.7 cc air-cooled engine which produces of power. It has a fuel tank of 9.5 L and a",
-      "img": "https://i.ibb.co/TwgH0BT/Pediasure-Vanilla-1600g-TIN-170x170.jpg",
-      "price": "760"
-    },
-    {
-      "id": 3,
-      "name": "Nestle NIDO Fortigrow Full Cream Milk Powder 700 gm",
-      "description": "Protein 54% Calcium 80% Iron 66% Zinc 60% Vitamin A 70% Vitamin D 76% Origin: Bangladesh",
-      "img": "https://i.ibb.co/6F7GJCj/Nido-Glass-CP-Offer-Thumbnail-wttv-rp-228x228.jpg",
-      "price": "660"
-    },
-    {
-      "id": 4,
-      "name": " Nestle NIDO Fortigrow Full Cream Milk Powder",
-      "description": "Protein 54% Calcium 80% Iron 66% Zinc 60% Vitamin A 70% Vitamin D 76% Origin: New Zealand Imported by Nestle Bangladesh",
-      "img": "https://i.ibb.co/3zhdMkn/NIDO-2-5kg-MAGGI-16p-Jan31-228x228.jpg",
-      "price": "750"
-    },
-    {
-      "id": 5,
-      "name": "Nestle NIDO Fortigrow Full Cream Milk Powder 900 gm",
-      "description": " Calcium, Vitamin d & vitamin C, etc. NIDO Fortified with FortiGrow™ contains high-quality protein, which is of critical importance to overall growth and development. High-quality protein has essential amino acids, that your child needs, but their bodies are unable to produce on their own. It also contains the perfect balance of vitamins and minerals including Calcium, Vitamin D, Iron and Vitamin C to provide the daily nourishment that your child needs",
-      "img": "https://i.ibb.co/Zh4byHR/nido-900g-naderland-228x228.jpg",
-      "price": "900"
-    },
-    {
-      "id": 6,
-      "name": "Nestle NIDO Fortigrow Full Cream Milk Powder 900 gm",
-      "description": "After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges! ",
-      "img": "https://i.ibb.co/pfxdRHy/nestle-nido-fortigrow-full-cream-milk-powder-tin-900-gm-228x228.jpg",
-      "price": "925"
-    },
-    {
-      "id": 7,
-      "name": "Nestle NIDO Fortigrow Full Cream Milk Powder 2.5 Kg",
-      "description": "After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges!",
-      "img": "https://i.ibb.co/Z2RmWHP/nestle-nido-fortigrow-full-cream-milk-powder-free-milo-powder-drink-400-gm-25-kg-1-228x228.jpg",
-      "price": "2650"
-    },
-    {
-      "id": 8,
-      "name": "Nestlé NIDO Fortigrow Full Cream Milk Powder 350 gm",
-      "description": " After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges! It has 14 important vitamins and minerals which help to improve your child’s learning ability, immunity and normal growth. Iron and B vitamins from NIDO Fortigrow help your child in his learning or cognitive development, Vitamin A & C help in immunity, and protein & calcium help in his normal growth.",
-      "img": "https://i.ibb.co/sqzrH0d/nestle-nido-fortigrow-full-cream-milk-powder-bib-350-gm-228x228.jpg",
-      "price": "300"
-    },
-    {
-      "id": 9,
-      "name": "Nestlé Nido 3+ Prebio 3 BIB 330 gm",
-      "description": "After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges! It has 14 important vitamins and minerals which help to improve your child’s learning ability, immunity and normal growth. Iron and B vitamins from NIDO Fortigrow help your child in his learning or cognitive development, Vitamin A & C help in immunity, and protein & calcium help in his normal growth.",
-      "img": "https://i.ibb.co/zHZdtkc/nestle-nido-3-prebio-3-330-gm-228x228.jpg",
-      "price": "375"
-    },
-    {
-      "id": 10,
-      "name": "Nestlé Nido 1+ Prebio 1 BIB 350 gm",
-      "description": "After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges! It has 14 important vitamins and minerals which help to improve your child’s learning ability, immunity and normal growth. Iron and B vitamins from NIDO Fortigrow help your child in his learning or cognitive development, Vitamin A & C help in immunity, and protein & calcium help in his normal growth ",
-      "img": "https://i.ibb.co/JrNHnCG/nestle-nido-1-prebio-1-330-gm-228x228.jpg",
-      "price": "375"
-    },
-    {
-      "id": 11,
-      "name": "NESTLÉ NAN BIB Pro 3 800gm TIN",
-      "description": "NAN PRO 3 powder in 800g jar is a nutritious milk drink developed for toddlers from 12 months, which is the liquid portion of the diet before you start giving cow's milk. NAN PRO 3 contain 2'-FL (2'-O-fucosyllactose) and produced by our special age appropriate protein technology. Please note that the product composition can be changed - always read the ingredient list on the package before serving food.",
-      "img": "https://i.ibb.co/vh7D1Fg/nestle-nanpro312mn-800g-center-front-228x228.jpg",
-      "price": "3599"
-    },
-    {
-      "id": 12,
-      "name": " Nestlé NAN 2 Optipro 400 gm TIN",
-      "description": "NAN PRO 2 powder in 800g jar is a nutritious milk drink developed for toddlers from 12 months, which is the liquid portion of the diet before you start giving cow's milk. NAN PRO 3 contain 2'-FL (2'-O-fucosyllactose) and produced by our special age appropriate protein technology. Please note that the product composition can be changed - always read the ingredient list on the package before serving food.",
-      "img": "https://i.ibb.co/GvNh3rG/nestle-nan-optipro-2-formula-milk-powder-6-m-400-gm-228x228.jpg",
-      "price": "875"
-    },
-    {
-      "id": 13,
-      "name": " Nestlé NAN 1 Optipro 400 gm TIN",
-      "description": "NAN PRO 1 powder in 800g jar is a nutritious milk drink developed for toddlers from 12 months, which is the liquid portion of the diet before you start giving cow's milk. NAN PRO 3 contain 2'-FL (2'-O-fucosyllactose) and produced by our special age appropriate protein technology. Please note that the product composition can be changed - always read the ingredient list on the package before serving food.",
-      "img": "https://i.ibb.co/SwdH6tQ/nestle-nan-optipro-1-formula-milk-powder-0-6-m-400-gm-228x228.jpg",
-      "price": "875"
-    },
-    {
-      "id": 14,
-      "name": "Nestlé NAN 4 Optipro 350 gm BIB",
-      "description": "NAN PRO 1 powder in 800g jar is a nutritious milk drink developed for toddlers from 12 months, which is the liquid portion of the diet before you start giving cow's milk. NAN PRO 3 contain 2'-FL (2'-O-fucosyllactose) and produced by our special age appropriate protein technology. Please note that the product composition can be changed - always read the ingredient list on the package before serving food.",
-      "img": "https://i.ibb.co/fpBvHq7/nestle-nan-4-infant-formula-milk-powder-2-years-350-gm-228x228.jpg",
-      "price": "635"
-    },
-    {
-      "id": 15,
-      "name": "Nestlé LACTOGEN 2 Follow up Formula With Iron 6m+ 400 ",
-      "description": "LACTOGEN 2 Gentle Plus contains L. reuteri, a probiotic culture naturally found in breast milk. This helps accelerate babies’ digestion and eases their urination process.",
-      "img": "https://i.ibb.co/hfRj7dz/nestle-lactogen-3-infant-formula-milk-powder-tin-12-24-months-400-gm-170x170.jpg",
-      "price": "600"
-    },
-    {
-      "id": 16,
-      "name": "Nestlé LACTOGEN 3 12th month + 350gm BIB",
-      "description": "LACTOGEN 3 Gentle Plus contains L. reuteri, a probiotic culture naturally found in breast milk. This helps accelerate babies’ digestion and eases their urination proces",
-      "img": "https://i.ibb.co/4ZmZ4N7/nestle-lactogen-3-350-gm-bib-228x228.png",
-      "price": "500"
-    },
-    {
-      "id": 17,
-      "name": "Nestlé LACTOGEN 2 12th month + 350gm BIB",
-      "description": "LACTOGEN 3 Gentle Plus contains L. reuteri, a probiotic culture naturally found in breast milk. This helps accelerate babies’ digestion and eases their urination proces",
-      "img": "https://i.ibb.co/BwrdsPb/nestle-lactogen-2-400-gm-228x228.png",
-      "price": "650"
-    },
-    {
-      "id": 18,
-      "name": "Nestlé LACTOGEN 1 Infant Formula 400 gm TIN",
-      "description": "LACTOGEN 1 Gentle Start contains L. reuteri, a probiotic culture naturally present in breast milk. This helps to reduce colic-related conditions which in turn helps diminish a baby’s excessive crying",
-      "img": "https://i.ibb.co/ZKd0PcR/nestle-lactogen-1-tin-400-gm-228x228.png",
-      "price": "650"
-    },
-    {
-      "id": 19,
-      "name": "Nestle Nido Three Plus Milk Powder 1800gm",
-      "description": "NIDO Three Plus is fortified with a range of important nutrients that help support your child’s immune system and brain development:",
-      "img": "https://i.ibb.co/vmf7g0P/item-XL-9277879-136666424-228x228.jpg",
-      "price": "3700"
-    },
-    {
-      "id": 20,
-      "name": "Aptamil Milk Stage 3 400 gm TIN",
-      "description": "Aptamil® Follow On Milk 1.5 year + powder Complements a weaning diet from 6 months Nutritionally tailored to support your baby's next stage of development",
-      "img": "https://i.ibb.co/5sLSPvp/G03-12-2-228x228.jpg",
-      "price": "2450"
-    },
-    {
-      "id": 21,
-      "name": "Dano Full Cream Milk Powder 2.5kg",
-      "description": "Brand bottom line: Iron, Vitamin B1, B2, B6, B12 - help in brain development/ Vitamin A, Zinc, Vitamin C - increase child's immunity/ Protein, Calcium, Vitamin D - help in child's growth.",
-      "img": "https://i.ibb.co/Ctjr0Xv/Dano-2-5kg-228x228.jpg",
-      "price": "2499"
-    },
-    {
-      "id": 22,
-      "name": "Cowhead Instant Milk Powder 2.5kg",
-      "description": "Brand bottom line: Iron, Vitamin B1, B2, B6, B12 - help in brain development/ Vitamin A, Zinc, Vitamin C - increase child's immunity/ Protein, Calcium, Vitamin D - help in child's growth",
-      "img": "https://i.ibb.co/NZzCx30/Cowhead-Instant-Milk-Powder-2-5-Kg-228x228.jpg",
-      "price": "3299"
-    },
-    {
-      "id": 23,
-      "name": "Cow & Gate Stage 02 Milk Powder 2.5kg",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
-      "img": "https://i.ibb.co/t830srJ/Cow-and-Gate-Stage-02-228x228.jpg",
-      "price": "1999"
-    },
-    {
-      "id": 24,
-      "name": "Cow & Gate Stage 04 Milk Powder 2.5kg",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
-      "img": "https://i.ibb.co/Lhw12Ns/c-g-4-228x228.jpg",
-      "price": "2050"
-    },
-    {
-      "id": 25,
-      "name": "Cow & Gate Stage 03",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
-      "img": "https://i.ibb.co/bLQjF3v/c-g-3-228x228.jpg",
-      "price": "2050"
-    },
-    {
-      "id": 26,
-      "name": "Cow & Gate Stage 01",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
-      "img": "https://i.ibb.co/hFSPk9G/c-g-1-228x228.jpg",
-      "price": "1050"
-    },
-    {
-      "id": 27,
-      "name": "Aptamil Milk Stage 2",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
-      "img": "https://i.ibb.co/HBcTjJS/aptamill2-228x228.jpg",
-      "price": "2450"
-    },
-    {
-      "id": 28,
-      "name": "Aptamil Milk Stage 4",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
-      "img": "https://i.ibb.co/VNDV239/Aptamil-4-228x228.jpg",
-      "price": "2500"
-    },
-    {
-      "id": 29,
-      "name": "Aptamil Milk Stage 1",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute,",
-      "img": "https://i.ibb.co/RhrH8ML/apta1-228x228.jpg",
-      "price": "2200"
-    },
-    {
-      "id": 30,
-      "name": "Nestle Nido One Plus ",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
-      "img": "https://i.ibb.co/LghN4tT/487bfe488e0a-68-228x228.png",
-      "price": "3900"
-    },
-    {
-      "id": 31,
-      "name": "Nestlé Cerelac Stage 5 Fruits",
-      "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
-      "img": "https://i.ibb.co/8KwRH2W/Cerelac-5-Fruits-Multi-Grains-170x170.jpg",
-      "price": "800"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Nestlé NAN 3 Optipro 350 gm BIB",
+    "description": "NAN OPTIPRO 3 is a spray dried infant formula designed for infants from 12 m+ onwards when they are not breastfed DHA and ARA, two special fatty acids found in breast milk, which are important for your baby’s immune defense system and contribute to the development of brain and vision. Keep in mind that there is no substitute of or equivalent to breast milk.",
+    "img": "https://i.ibb.co/vstrCSQ/Whats-App-Image-2022-02-13-at-11-54-55-AM-228x228.jpg",
+    "price": "665",
+    "category": "milks"
+  },
+  {
+    "id": 2,
+    "name": "Nestlé NAN 3 Optipro 350 gm BIB",
+    "description": "The KTM RC 125 is powered by a 124.7 cc air-cooled engine which produces of power. It has a fuel tank of 9.5 L and a",
+    "img": "https://i.ibb.co/TwgH0BT/Pediasure-Vanilla-1600g-TIN-170x170.jpg",
+    "price": "760",
+    "category": "milks"
+  },
+  {
+    "id": 3,
+    "name": "Nestle NIDO Fortigrow Full Cream Milk Powder 700 gm",
+    "description": "Protein 54% Calcium 80% Iron 66% Zinc 60% Vitamin A 70% Vitamin D 76% Origin: Bangladesh",
+    "img": "https://i.ibb.co/6F7GJCj/Nido-Glass-CP-Offer-Thumbnail-wttv-rp-228x228.jpg",
+    "price": "660",
+    "category": "milks"
+  },
+  {
+    "id": 4,
+    "name": " Nestle NIDO Fortigrow Full Cream Milk Powder",
+    "description": "Protein 54% Calcium 80% Iron 66% Zinc 60% Vitamin A 70% Vitamin D 76% Origin: New Zealand Imported by Nestle Bangladesh",
+    "img": "https://i.ibb.co/3zhdMkn/NIDO-2-5kg-MAGGI-16p-Jan31-228x228.jpg",
+    "price": "750",
+    "category": "milks"
+  },
+  {
+    "id": 5,
+    "name": "Nestle NIDO Fortigrow Full Cream Milk Powder 900 gm",
+    "description": " Calcium, Vitamin d & vitamin C, etc. NIDO Fortified with FortiGrow™ contains high-quality protein, which is of critical importance to overall growth and development. High-quality protein has essential amino acids, that your child needs, but their bodies are unable to produce on their own. It also contains the perfect balance of vitamins and minerals including Calcium, Vitamin D, Iron and Vitamin C to provide the daily nourishment that your child needs",
+    "img": "https://i.ibb.co/Zh4byHR/nido-900g-naderland-228x228.jpg",
+    "price": "900",
+    "category": "milks"
+  },
+  {
+    "id": 6,
+    "name": "Nestle NIDO Fortigrow Full Cream Milk Powder 900 gm",
+    "description": "After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges! ",
+    "img": "https://i.ibb.co/pfxdRHy/nestle-nido-fortigrow-full-cream-milk-powder-tin-900-gm-228x228.jpg",
+    "price": "925",
+    "category": "milks"
+  },
+  {
+    "id": 7,
+    "name": "Nestle NIDO Fortigrow Full Cream Milk Powder 2.5 Kg",
+    "description": "After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges!",
+    "img": "https://i.ibb.co/Z2RmWHP/nestle-nido-fortigrow-full-cream-milk-powder-free-milo-powder-drink-400-gm-25-kg-1-228x228.jpg",
+    "price": "2650",
+    "category": "milks"
+  },
+  {
+    "id": 8,
+    "name": "Nestlé NIDO Fortigrow Full Cream Milk Powder 350 gm",
+    "description": " After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges! It has 14 important vitamins and minerals which help to improve your child’s learning ability, immunity and normal growth. Iron and B vitamins from NIDO Fortigrow help your child in his learning or cognitive development, Vitamin A & C help in immunity, and protein & calcium help in his normal growth.",
+    "img": "https://i.ibb.co/sqzrH0d/nestle-nido-fortigrow-full-cream-milk-powder-bib-350-gm-228x228.jpg",
+    "price": "300",
+    "category": "milks"
+  },
+  {
+    "id": 9,
+    "name": "Nestlé Nido 3+ Prebio 3 BIB 330 gm",
+    "description": "After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges! It has 14 important vitamins and minerals which help to improve your child’s learning ability, immunity and normal growth. Iron and B vitamins from NIDO Fortigrow help your child in his learning or cognitive development, Vitamin A & C help in immunity, and protein & calcium help in his normal growth.",
+    "img": "https://i.ibb.co/zHZdtkc/nestle-nido-3-prebio-3-330-gm-228x228.jpg",
+    "price": "375",
+    "category": "milks"
+  },
+  {
+    "id": 10,
+    "name": "Nestlé Nido 1+ Prebio 1 BIB 350 gm",
+    "description": "After the age of 5, your child enters a challenging world where healthy physical and mental growth is vital for success and this is when NIDO Fortigrow can help your child develop. NIDO Fortigrow is the best dairy-based nutrition which makes sure your child is mind- and body- ready for school challenges! It has 14 important vitamins and minerals which help to improve your child’s learning ability, immunity and normal growth. Iron and B vitamins from NIDO Fortigrow help your child in his learning or cognitive development, Vitamin A & C help in immunity, and protein & calcium help in his normal growth ",
+    "img": "https://i.ibb.co/JrNHnCG/nestle-nido-1-prebio-1-330-gm-228x228.jpg",
+    "price": "375",
+    "category": "milks"
+  },
+  {
+    "id": 11,
+    "name": "NESTLÉ NAN BIB Pro 3 800gm TIN",
+    "description": "NAN PRO 3 powder in 800g jar is a nutritious milk drink developed for toddlers from 12 months, which is the liquid portion of the diet before you start giving cow's milk. NAN PRO 3 contain 2'-FL (2'-O-fucosyllactose) and produced by our special age appropriate protein technology. Please note that the product composition can be changed - always read the ingredient list on the package before serving food.",
+    "img": "https://i.ibb.co/vh7D1Fg/nestle-nanpro312mn-800g-center-front-228x228.jpg",
+    "price": "3599",
+    "category": "milks"
+  },
+  {
+    "id": 12,
+    "name": " Nestlé NAN 2 Optipro 400 gm TIN",
+    "description": "NAN PRO 2 powder in 800g jar is a nutritious milk drink developed for toddlers from 12 months, which is the liquid portion of the diet before you start giving cow's milk. NAN PRO 3 contain 2'-FL (2'-O-fucosyllactose) and produced by our special age appropriate protein technology. Please note that the product composition can be changed - always read the ingredient list on the package before serving food.",
+    "img": "https://i.ibb.co/GvNh3rG/nestle-nan-optipro-2-formula-milk-powder-6-m-400-gm-228x228.jpg",
+    "price": "875",
+    "category": "milks"
+  },
+  {
+    "id": 13,
+    "name": " Nestlé NAN 1 Optipro 400 gm TIN",
+    "description": "NAN PRO 1 powder in 800g jar is a nutritious milk drink developed for toddlers from 12 months, which is the liquid portion of the diet before you start giving cow's milk. NAN PRO 3 contain 2'-FL (2'-O-fucosyllactose) and produced by our special age appropriate protein technology. Please note that the product composition can be changed - always read the ingredient list on the package before serving food.",
+    "img": "https://i.ibb.co/SwdH6tQ/nestle-nan-optipro-1-formula-milk-powder-0-6-m-400-gm-228x228.jpg",
+    "price": "875",
+    "category": "milks"
+  },
+  {
+    "id": 14,
+    "name": "Nestlé NAN 4 Optipro 350 gm BIB",
+    "description": "NAN PRO 1 powder in 800g jar is a nutritious milk drink developed for toddlers from 12 months, which is the liquid portion of the diet before you start giving cow's milk. NAN PRO 3 contain 2'-FL (2'-O-fucosyllactose) and produced by our special age appropriate protein technology. Please note that the product composition can be changed - always read the ingredient list on the package before serving food.",
+    "img": "https://i.ibb.co/fpBvHq7/nestle-nan-4-infant-formula-milk-powder-2-years-350-gm-228x228.jpg",
+    "price": "635",
+    "category": "milks"
+  },
+  {
+    "id": 15,
+    "name": "Nestlé LACTOGEN 2 Follow up Formula With Iron 6m+ 400 ",
+    "description": "LACTOGEN 2 Gentle Plus contains L. reuteri, a probiotic culture naturally found in breast milk. This helps accelerate babies’ digestion and eases their urination process.",
+    "img": "https://i.ibb.co/hfRj7dz/nestle-lactogen-3-infant-formula-milk-powder-tin-12-24-months-400-gm-170x170.jpg",
+    "price": "600",
+    "category": "milks"
+  },
+  {
+    "id": 16,
+    "name": "Nestlé LACTOGEN 3 12th month + 350gm BIB",
+    "description": "LACTOGEN 3 Gentle Plus contains L. reuteri, a probiotic culture naturally found in breast milk. This helps accelerate babies’ digestion and eases their urination proces",
+    "img": "https://i.ibb.co/4ZmZ4N7/nestle-lactogen-3-350-gm-bib-228x228.png",
+    "price": "500",
+    "category": "milks"
+  },
+  {
+    "id": 17,
+    "name": "Nestlé LACTOGEN 2 12th month + 350gm BIB",
+    "description": "LACTOGEN 3 Gentle Plus contains L. reuteri, a probiotic culture naturally found in breast milk. This helps accelerate babies’ digestion and eases their urination proces",
+    "img": "https://i.ibb.co/BwrdsPb/nestle-lactogen-2-400-gm-228x228.png",
+    "price": "650",
+    "category": "milks"
+  },
+  {
+    "id": 18,
+    "name": "Nestlé LACTOGEN 1 Infant Formula 400 gm TIN",
+    "description": "LACTOGEN 1 Gentle Start contains L. reuteri, a probiotic culture naturally present in breast milk. This helps to reduce colic-related conditions which in turn helps diminish a baby’s excessive crying",
+    "img": "https://i.ibb.co/ZKd0PcR/nestle-lactogen-1-tin-400-gm-228x228.png",
+    "price": "650",
+    "category": "milks"
+  },
+  {
+    "id": 19,
+    "name": "Nestle Nido Three Plus Milk Powder 1800gm",
+    "description": "NIDO Three Plus is fortified with a range of important nutrients that help support your child’s immune system and brain development:",
+    "img": "https://i.ibb.co/vmf7g0P/item-XL-9277879-136666424-228x228.jpg",
+    "price": "3700",
+    "category": "milks"
+  },
+  {
+    "id": 20,
+    "name": "Aptamil Milk Stage 3 400 gm TIN",
+    "description": "Aptamil® Follow On Milk 1.5 year + powder Complements a weaning diet from 6 months Nutritionally tailored to support your baby's next stage of development",
+    "img": "https://i.ibb.co/5sLSPvp/G03-12-2-228x228.jpg",
+    "price": "2450",
+    "category": "milks"
+  },
+  {
+    "id": 21,
+    "name": "Dano Full Cream Milk Powder 2.5kg",
+    "description": "Brand bottom line: Iron, Vitamin B1, B2, B6, B12 - help in brain development/ Vitamin A, Zinc, Vitamin C - increase child's immunity/ Protein, Calcium, Vitamin D - help in child's growth.",
+    "img": "https://i.ibb.co/Ctjr0Xv/Dano-2-5kg-228x228.jpg",
+    "price": "2499",
+    "category": "milks"
+  },
+  {
+    "id": 22,
+    "name": "Cowhead Instant Milk Powder 2.5kg",
+    "description": "Brand bottom line: Iron, Vitamin B1, B2, B6, B12 - help in brain development/ Vitamin A, Zinc, Vitamin C - increase child's immunity/ Protein, Calcium, Vitamin D - help in child's growth",
+    "img": "https://i.ibb.co/NZzCx30/Cowhead-Instant-Milk-Powder-2-5-Kg-228x228.jpg",
+    "price": "3299",
+    "category": "milks"
+  },
+  {
+    "id": 23,
+    "name": "Cow & Gate Stage 02 Milk Powder 2.5kg",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
+    "img": "https://i.ibb.co/t830srJ/Cow-and-Gate-Stage-02-228x228.jpg",
+    "price": "1999",
+    "category": "milks"
+  },
+  {
+    "id": 24,
+    "name": "Cow & Gate Stage 04 Milk Powder 2.5kg",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
+    "img": "https://i.ibb.co/Lhw12Ns/c-g-4-228x228.jpg",
+    "price": "2050",
+    "category": "milks"
+  },
+  {
+    "id": 25,
+    "name": "Cow & Gate Stage 03",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
+    "img": "https://i.ibb.co/bLQjF3v/c-g-3-228x228.jpg",
+    "price": "2050",
+    "category": "milks"
+  },
+  {
+    "id": 26,
+    "name": "Cow & Gate Stage 01",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
+    "img": "https://i.ibb.co/hFSPk9G/c-g-1-228x228.jpg",
+    "price": "1050",
+    "category": "milks"
+  },
+  {
+    "id": 27,
+    "name": "Aptamil Milk Stage 2",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
+    "img": "https://i.ibb.co/HBcTjJS/aptamill2-228x228.jpg",
+    "price": "2450",
+    "category": "milks"
+  },
+  {
+    "id": 28,
+    "name": "Aptamil Milk Stage 4",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
+    "img": "https://i.ibb.co/VNDV239/Aptamil-4-228x228.jpg",
+    "price": "2500",
+    "category": "milks"
+  },
+  {
+    "id": 29,
+    "name": "Aptamil Milk Stage 1",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute,",
+    "img": "https://i.ibb.co/RhrH8ML/apta1-228x228.jpg",
+    "price": "2200",
+    "category": "milks"
+  },
+  {
+    "id": 30,
+    "name": "Nestle Nido One Plus ",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
+    "img": "https://i.ibb.co/LghN4tT/487bfe488e0a-68-228x228.png",
+    "price": "3900",
+    "category": "milks"
+  },
+  {
+    "id": 31,
+    "name": "Nestlé Cerelac Stage 5 Fruits",
+    "description": "For babies aged 6 to 12 months  Nutritionally complete breast milk substitute No:1 UK Baby Milk Powder Highly suggested & recommended by Doctors Nutritionally complete breast milk substitute",
+    "img": "https://i.ibb.co/8KwRH2W/Cerelac-5-Fruits-Multi-Grains-170x170.jpg",
+    "price": "800",
+    "category": "milks"
+  }
+]

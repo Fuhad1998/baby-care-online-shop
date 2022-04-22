@@ -1,58 +1,66 @@
 [
-    {
-      "id": 1,
-      "name": "Hummingbird printed sweater",
-      "description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort.",
-      "img": "https://i.ibb.co/4PpRfzY/the-best-is-yet-to-come-framed-poster.jpg",
-      "price": "990"
-    },
-    {
-      "id": 2,
-      "name": "Hummingbird printed sweater",
-      "description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort.",
-      "img": "https://i.ibb.co/Yjh1w87/the-adventure-begins-framed-poster.jpg",
-      "price": "990"
-    },
-    {
-      "id": 3,
-      "name": "Hummingbird printed sweater",
-      "description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort.",
-      "img": "https://i.ibb.co/WKM1fn2/brown-bear-printed-sweater.jpg",
-      "price": "800"
-    },
-    {
-      "id": 4,
-      "name": "Brown bear cushion Pack Mug ",
-      "description": "Cushion with removable cover and invisible zip on the back. 32x32cm",
-      "img": "https://i.ibb.co/LgXRLV2/brown-bear-cushion.jpg",
-      "price": "800"
-    },
-    {
-      "id": 5,
-      "name": "Boy's T-Shirt With Pant Superman",
-      "description": "Material: COTTON Fabric Type: Combed Cotton Sleeve Style: Half Gender: Boy",
-      "img": "https://i.ibb.co/3NV9tvt/superman-500x500-200x200.jpg",
-      "price": "390"
-    },
-    {
-      "id": 6,
-      "name": "Mountain fox cushion cap",
-      "description": "Cushion with removable cover and invisible zip on the back. 32x32cm",
-      "img": "https://i.ibb.co/k2nDQsq/mug-the-adventure-begins.jpg",
-      "price": "290"
-    },
-    {
-      "id": 7,
-      "name": "Mountain fox cushion cap",
-      "description": "Cushion with removable cover and invisible zip on the back. 32x32cm",
-      "img": "https://i.ibb.co/2WHLGyS/mug-today-is-a-good-day.jpg",
-      "price": "390"
-    },
-    {
-      "id": 8,
-      "name": "Brown bear cushion Pack Mug ",
-      "description": "Cushion with removable cover and invisible zip on the back. 32x32cm",
-      "img": "https://i.ibb.co/LgXRLV2/brown-bear-cushion.jpg",
-      "price": "590"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Hummingbird printed sweater",
+    "description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort.",
+    "img": "https://i.ibb.co/4PpRfzY/the-best-is-yet-to-come-framed-poster.jpg",
+    "price": "990",
+    "category": "cloths"
+  },
+  {
+    "id": 2,
+    "name": "Hummingbird printed sweater",
+    "description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort.",
+    "img": "https://i.ibb.co/Yjh1w87/the-adventure-begins-framed-poster.jpg",
+    "price": "990",
+    "category": "cloths"
+  },
+  {
+    "id": 3,
+    "name": "Hummingbird printed sweater",
+    "description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort.",
+    "img": "https://i.ibb.co/WKM1fn2/brown-bear-printed-sweater.jpg",
+    "price": "800",
+    "category": "cloths"
+  },
+  {
+    "id": 4,
+    "name": "Brown bear cushion Pack Mug ",
+    "description": "Cushion with removable cover and invisible zip on the back. 32x32cm",
+    "img": "https://i.ibb.co/LgXRLV2/brown-bear-cushion.jpg",
+    "price": "800",
+    "category": "cloths"
+  },
+  {
+    "id": 5,
+    "name": "Boy's T-Shirt With Pant Superman",
+    "description": "Material: COTTON Fabric Type: Combed Cotton Sleeve Style: Half Gender: Boy",
+    "img": "https://i.ibb.co/3NV9tvt/superman-500x500-200x200.jpg",
+    "price": "390",
+    "category": "cloths"
+  },
+  {
+    "id": 6,
+    "name": "Mountain fox cushion cap",
+    "description": "Cushion with removable cover and invisible zip on the back. 32x32cm",
+    "img": "https://i.ibb.co/k2nDQsq/mug-the-adventure-begins.jpg",
+    "price": "290",
+    "category": "cloths"
+  },
+  {
+    "id": 7,
+    "name": "Mountain fox cushion cap",
+    "description": "Cushion with removable cover and invisible zip on the back. 32x32cm",
+    "img": "https://i.ibb.co/2WHLGyS/mug-today-is-a-good-day.jpg",
+    "price": "390",
+    "category": "cloths"
+  },
+  {
+    "id": 8,
+    "name": "Brown bear cushion Pack Mug ",
+    "description": "Cushion with removable cover and invisible zip on the back. 32x32cm",
+    "img": "https://i.ibb.co/LgXRLV2/brown-bear-cushion.jpg",
+    "price": "590",
+    "category": "cloths"
+  }
+]

@@ -1,4 +1,9 @@
+.img-box{
+   width: 300px;
+    height: auto;
+    }
 .img-box:hover{
+   
     transform: scale(1.1);
     }
 

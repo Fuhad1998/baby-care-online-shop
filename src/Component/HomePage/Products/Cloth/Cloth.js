@@ -10,7 +10,7 @@ const Cloth = ({cloth}) => {
     return (
         <CardGroup className='col-md-3 col-xs-12 col-sm-12 py-2 '>
         <Link className='link-name' to={`/productDetail/${id}`}>
-      <Card className='p-2 border-0 card-container'>
+      <Card className='p-2 border- card-container' >
         <Card.Img className='img-box' variant="top" src={img} />
         <Card.Body className='p-4'>
           <Card.Title> {name}</Card.Title>

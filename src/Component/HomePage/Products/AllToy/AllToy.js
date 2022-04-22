@@ -3,8 +3,8 @@ import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const Toy = ({toy}) => {
-    const {name, img, id, price} = toy;
+const AllToy = ({allToy}) => {
+    const {img, price, name, id} = allToy;
     return (
         <CardGroup className='col-md-3 col-xs-12 col-sm-12 py-2 '>
         <Link className='link-name' to={`/productDetail/${id}`}>
@@ -26,4 +26,4 @@ const Toy = ({toy}) => {
     );
 };
 
-export default Toy;
+export default AllToy;
