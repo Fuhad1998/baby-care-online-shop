@@ -18,6 +18,7 @@ import MakeAdmin from "./Component/MakeAdmin/MakeAdmin";
 import ManageAllOrders from "./Component/ManageAllOrders/ManageAllOrders";
 import MyOrders from "./Component/MyOrders/MyOrders";
 import ProductDetail from "./Component/ProductDetail/ProductDetail";
+import Purchase from "./Component/Purchase/Purchase";
 import Register from "./Component/Register/Register";
 import Reviews from "./Component/Reviews/Reviews";
 import Terms from "./Component/Terms/Terms";
@@ -31,6 +32,7 @@ function App() {
         <Header></Header>
         <Routes>
           
+          <Route path="/purchase" element={<Purchase />}></Route>
           <Route path="/allToys" element={<AllToys />}></Route>
           <Route path="/makeAdmin" element={<MakeAdmin />}></Route>
           <Route path="/addAProduct" element={<AddAProduct />}></Route>

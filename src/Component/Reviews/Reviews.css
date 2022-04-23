@@ -1,0 +1,22 @@
+.review-header{
+    height: 330px;
+     width: 380px;
+     border-radius: 10px;
+   
+ }
+ 
+ 
+ 
+ .review-from{
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+ }
+ 
+ 
+ .input-btn{
+     width: 280px;
+ }

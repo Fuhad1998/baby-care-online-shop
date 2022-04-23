@@ -1,12 +1,14 @@
 import initializeAuthentication from "../Component/Firebase/Firebase.initialize";
 import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signOut, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 initializeAuthentication();
 const UseFirebase = () => {
     const [user, setUser] = useState({});
     const [isloding, setIsloding] = useState(true);
   const [admin, setAdmin] = useState(false)
+  const [carts, setCarts] = useState([])
 
 
 
@@ -110,13 +112,31 @@ const UseFirebase = () => {
   }, [])
 
 
+
+
+  const handelAddToCart = (products) =>{
+    const newCart = [...carts, products]
+    setCarts(newCart)
+  }
+
+
+  // let navigate = useNavigate();
+  // function handleClick(order) {
+  //   navigate("/purchase");
+  //   console.log(order)
+  // }
+
+
     return{
         loginUser,
         signInUsingGoole,
         registerUser,
         logOut,
         user,
-        isloding
+        isloding,
+        handelAddToCart,
+        carts,
+       
     }
 
 };

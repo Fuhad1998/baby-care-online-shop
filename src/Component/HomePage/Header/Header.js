@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import UseAuth from '../../../Hooks/UseAuth';
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
+import "./Header.css"
 
 
 
@@ -13,20 +14,21 @@ const Header = () => {
 
 
     return (
-      <Navbar expand={false} className="bg-primary"  >
+      <Navbar expand={false} className="bg-white Regular shadow py-3"  >
       <Container fluid  >
-      <Navbar.Brand href="#" className='text-white'>Baby Care Shop</Navbar.Brand>
-          <Link  className="header-link text-white" to="/homes">Home</Link>
+      <Navbar.Brand href="#" className=' web-name'>Baby Care Shop</Navbar.Brand>
+          <Link  className="header-link  nav-link" to="/homes">Home</Link>
+          <Link  className="header-link  py-2" to="/addToCart">Cart</Link>
           
 
           {
             user?.email ? 
             <button 
             
-            className="header-link border-0 text-white"
+            className="header-link border-0  bg-white"
              onClick={logOut}>Log-Out</button>
             :
-            <Link  className="header-link text-white" to="/login">Log-In</Link>
+            <Link  className="header-link  px-2" to="/login">Log-In</Link>
           }
           
           
@@ -35,6 +37,7 @@ const Header = () => {
 
         <Navbar.Toggle aria-controls="offcanvasNavbar"  />
         <Navbar.Offcanvas
+        
         style={{width: "300px"}}
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -47,14 +50,14 @@ const Header = () => {
           </Offcanvas.Header>
           <Offcanvas.Body >
             <Nav className="justify-content-end flex-grow-1 pe-3">
-              <Link to="/allCloths">All Cloths</Link>
-              <Link to="/allMilks">All Milks</Link>
-              <Link to="/allToys">All Toys</Link>
-              <Link to="/reviews">Reviews</Link>
-              <Link to="/myOrders">My Order</Link>
-              <Link to="/manageAllOrders">Manage All Orders</Link>
-              <Link to="/addAProduct">Add A Product</Link>
-              <Link to="/makeAdmin">Make Admin</Link>
+              <Link className='dashboard-link py-2' to="/allCloths">All Cloths</Link>
+              <Link className='dashboard-link py-2' to="/allMilks">All Milks</Link>
+              <Link className='dashboard-link py-2' to="/allToys">All Toys</Link>
+              <Link className='dashboard-link py-2' to="/reviews">Reviews</Link>
+              <Link className='dashboard-link py-2' to="/myOrders">My Order</Link>
+              <Link className='dashboard-link py-2' to="/manageAllOrders">Manage All Orders</Link>
+              <Link className='dashboard-link py-2' to="/addAProduct">Add A Product</Link>
+              <Link className='dashboard-link py-2' to="/makeAdmin">Make Admin</Link>
 
              
               

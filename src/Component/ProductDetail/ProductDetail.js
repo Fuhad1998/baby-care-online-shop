@@ -41,6 +41,7 @@ const ProductDetail = () => {
             <h1 className=" product-det">{item?.name}</h1>
             <p className="product-det">Description: {item?.description}</p>
             <h4 className=" text-danger product-det pb-2">Price: {item?.price}</h4>
+            <h4 className=" product-det">In Stock Order Soon</h4>
             
             <Button className="d-grid justify-content-start bg-danger text-white p-2 addToCart-btn"><Link to="/addToCart" className='link-cart'>Add To Cart</Link></Button>
           </div>

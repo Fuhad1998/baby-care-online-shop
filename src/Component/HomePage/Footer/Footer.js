@@ -9,29 +9,29 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container bg-white">
       <div className="row ">
         <div className="col-md-4 col-xs-12 col-sm-12 p-5">
-          <h2 className="p-2 information-link">INFORMATION</h2>
-          <h4 className="p-2 information-link"><Link className="link-text" to="/about">About Us</Link></h4>
+          <h2 className="p-2 information-link ">INFORMATION</h2>
+          <h4 className="p-2 information-link"><Link className="link-text  " to="/about">About Us</Link></h4>
 
-          <h4 className="p-2 information-link"><Link className="link-text" to="/terms">Terms and conditions</Link></h4>
+          <h4 className="p-2 information-link"><Link className="link-text  " to="/terms">Terms and conditions</Link></h4>
           <h4 className="p-2 information-link"><Link className="link-text" to="/delivery">Delivery</Link></h4>
         </div>
         <div className="col-md-4 col-xs-12 col-sm-12 p-5">
-          <h2 className="p-2 information-link">CONTACT US</h2>
+          <h2 className="p-2 information-link ">CONTACT US</h2>
           <h4 className="p-2 information-link">
-            <a className="link-text" href="https://web.facebook.com/"><i className="fab fa-facebook text-primary"> </i> Facebook</a>
+            <a className="link-text  "  href="https://web.facebook.com/"><i className="fab fa-facebook text-primary"> </i> Facebook</a>
           </h4>
-          <h4 className="p-2 information-link link-text">
-          <i className="fab fa-twitter text-primary "> </i> Twitter
+          <h4 className="p-2 information-link link-text ">
+          <i className="fab fa-twitter text-info "> </i> Twitter
           </h4>
           <h4 className="p-2 information-link">
-            <a className="link-text" href="https://www.youtube.com/"><i className="fab fa-youtube text-danger"> </i> Youtube</a>
+            <a className="link-text " href="https://www.youtube.com/"><i className="fab fa-youtube text-danger"> </i> Youtube</a>
           </h4>
         </div>
         <div className="col-md-4 col-xs-12 col-sm-12 p-5">
-          <h2 className="p-2 information-link">PAYMENT</h2>
+          <h2 className="p-2 information-link ">PAYMENT</h2>
           <ul className="payment-container">
             <img className="footer-img information-link" src={img1} alt="" />
 
@@ -45,7 +45,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <p className="text-center fs-6  p-5 ">
+      <p className="text-center fs-6  p-5  ">
         <i className="  fas fa-copyright  "></i> Copy right 2022 By Fuwad
         Hossian
       </p>
