@@ -17,7 +17,7 @@ const Header = () => {
       <Navbar expand={false} className="bg-white Regular shadow py-3"  >
       <Container fluid  >
       <Navbar.Brand href="#" className=' web-name'>Baby Care Shop</Navbar.Brand>
-          <Link  className="header-link  nav-link" to="/homes">Home</Link>
+          <Link  className="header-link  home-link" to="/homes">Home</Link>
           <Link  className="header-link  py-2" to="/addToCart">Cart</Link>
           
 

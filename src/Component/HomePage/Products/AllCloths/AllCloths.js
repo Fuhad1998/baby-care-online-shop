@@ -11,7 +11,7 @@ const AllCloths = () => {
         .then(data => setAllCloths(data))
     }, [])
     return (
-        <div className='row p-5 bg-white shadow'>
+        <div className='row p-5 bg-white Regular shadow'>
             <h1 className=''>All Cloths</h1>
             {
                 allCloths.map(allCloth => <AllCloth
