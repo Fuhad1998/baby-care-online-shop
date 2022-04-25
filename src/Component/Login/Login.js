@@ -1,27 +1,27 @@
 import { CircularProgress } from '@mui/material';
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
 import "./Login.css"
 
 const Login = () => {
     const { register, handleSubmit } = useForm();
     const {loginUser, isloding, signInUsingGoole} = UseAuth();
-  // const location = useLocation();
-  // const history = useHistory();
+  const location = useLocation();
+  const Navigate = useNavigate()
     
     
     
   
   
     const onSubmit = (data) => {
-      loginUser(data.email, data.password)
-      alert("Register success");
+      loginUser(data.email, data.password, location, Navigate)
+      alert("Login successful");
     };
   
     const handelGoogleSignin = () =>{
-     
+      signInUsingGoole(location, Navigate)
     }
     return (
         <div className="container   login-container my-5 shadow-lg">

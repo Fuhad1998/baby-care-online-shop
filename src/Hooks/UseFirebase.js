@@ -35,12 +35,12 @@ const UseFirebase = () => {
   };
 
 
-  const loginUser = (email, password, location, history) =>{
+  const loginUser = (email, password, location, Navigate) =>{
     setIsloding(true)
     signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
         const destination = location?.state?.from || '/';
-        history.replace(destination);
+        Navigate(destination);
       
       const user = userCredential.user;
       
@@ -54,14 +54,14 @@ const UseFirebase = () => {
   }
 
 
-  const signInUsingGoole = (location, history) =>{
+  const signInUsingGoole = (location, Navigate) =>{
     setIsloding(true)
     signInWithPopup(auth, googleProvider)
     .then((result) => {
         const user = result.user;
         // saveUser(user.email, user.displayName, 'PUT')
         const destination = location?.state?.from || '/';
-        history.replace(destination);
+        Navigate(destination);
       
 
       

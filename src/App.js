@@ -17,6 +17,7 @@ import Login from "./Component/Login/Login";
 import MakeAdmin from "./Component/MakeAdmin/MakeAdmin";
 import ManageAllOrders from "./Component/ManageAllOrders/ManageAllOrders";
 import MyOrders from "./Component/MyOrders/MyOrders";
+import PrivateRoute from "./Component/PrivateRoute/PrivateRoute";
 import ProductDetail from "./Component/ProductDetail/ProductDetail";
 import Purchase from "./Component/Purchase/Purchase";
 import Register from "./Component/Register/Register";
@@ -32,7 +33,7 @@ function App() {
         <Header></Header>
         <Routes>
           
-          <Route path="/purchase" element={<Purchase />}></Route>
+          <Route path="/purchase" element={<PrivateRoute><Purchase/></PrivateRoute>}></Route>
           <Route path="/allToys" element={<AllToys />}></Route>
           <Route path="/makeAdmin" element={<MakeAdmin />}></Route>
           <Route path="/addAProduct" element={<AddAProduct />}></Route>

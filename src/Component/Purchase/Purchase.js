@@ -1,17 +1,24 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
 
 import UseAuth from "../../Hooks/UseAuth";
 
 const Purchase = () => {
     const {carts} = UseAuth();
     
-    
+    const Navigate = useNavigate()
   const { register, handleSubmit } = useForm();
+
+  let orderName = carts.map(product =>(product.name))
+  console.log(orderName)
+  
+
+
   const onSubmit = (data) => {
     
     data.totalPrice = cartTotal;
-    data.product = carts;
+    data.product = orderName;
     fetch("http://localhost:5000/orders", {
         method: "POST",
         headers: {
@@ -22,12 +29,14 @@ const Purchase = () => {
         .then((res) => res.json())
         .then((result) => {
           if (result.insertedId) {
-            
+            Navigate("/")
             alert("Successful Add Yours Orders");
           }
         });
         console.log(data)
   };
+  console.log(carts)
+  
 
   
 

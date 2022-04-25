@@ -25,7 +25,7 @@ const MyOrder = ({myOrders}) => {
           >
                       
             <td>{myOrder?.name}</td>
-            <td>{myOrder?.product?.Object?.name}</td>
+            <td>{myOrder?.product?.join()}</td>
               <td>{myOrder?.email}</td>
               <td>{myOrder?.phone}</td>
               <td>{myOrder?._id}</td>

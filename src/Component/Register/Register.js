@@ -1,15 +1,16 @@
 import { CircularProgress } from '@mui/material';
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { Link} from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
+const Navigate = useNavigate;
 
 const Register = () => {
     const {registerUser, isloding} = UseAuth();
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     console.log(data)
-    registerUser(data.email, data.password, data.name)
+    registerUser(data.email, data.password, data.name, Navigate)
     alert("Register success");
     
   };

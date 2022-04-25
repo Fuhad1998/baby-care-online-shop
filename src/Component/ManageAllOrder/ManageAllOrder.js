@@ -5,6 +5,7 @@ import { Button, Stack } from '@mui/material';
 import UpdateIcon from '@mui/icons-material/Update';
 
 const ManageAllOrder = ({manageAllOrders}) => {
+
     return (
         <Table responsive striped bordered hover size="sm">
         <thead>
@@ -28,7 +29,7 @@ const ManageAllOrder = ({manageAllOrders}) => {
           >
                       
             <td>{manageAllOrder?.name}</td>
-            <td>{manageAllOrder?.product?.Object?.name}</td>
+            <td>{manageAllOrder?.product?.join()}</td>
               <td>{manageAllOrder?.email}</td>
               <td>{manageAllOrder?.phone}</td>
               <td>{manageAllOrder?._id}</td>
