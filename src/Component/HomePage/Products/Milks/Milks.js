@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import Milk from "../Milk/Milk";
 
 const Milks = () => {
   const [milks, setMilks] = useState([]);
 
   useEffect(() => {
-    fetch("/data.json")
+    const url =`http://localhost:5000/products?category=milks`
+    fetch(url)
       .then((res) => res.json())
       .then((data) => setMilks(data?.slice(0, 8)));
   }, []);

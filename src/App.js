@@ -41,15 +41,15 @@ function App() {
           <Route path="/myOrders" element={<MyOrders />}></Route>
           <Route path="/reviews" element={<Reviews />}></Route>
           <Route path="/addToCart" element={<AddToCart />}></Route>
-          <Route path="/allCloths" element={<AllCloths />}></Route>
+          <Route path="/allCloths/" element={<AllCloths />}></Route>
           <Route path="/about" element={<AboutUs />}></Route>
           <Route path="/terms" element={<Terms />}></Route>
           <Route path="/delivery" element={<Delivery />}></Route>
-          <Route path="/toys" element={<Toys />}></Route>
-          <Route path="/cloths" element={<Cloths />}></Route>
+          <Route path="/toys/:id" element={<Toys />}></Route>
+          <Route path="/cloths/:id" element={<Cloths />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/login" element={<Login />}></Route>
-          <Route path="/allMilks" element={<AllMilks />}></Route>
+          <Route path="/allMilks/" element={<AllMilks />}></Route>
 
           <Route path="/productDetail/:id" element={<ProductDetail />}></Route>
 

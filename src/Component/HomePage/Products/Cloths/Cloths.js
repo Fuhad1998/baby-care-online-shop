@@ -6,7 +6,8 @@ const Cloths = () => {
     const [cloths, serCloths] = useState([])
 
     useEffect( () =>{
-        fetch("/cloth.json")
+        const url =`http://localhost:5000/products?category=cloths`
+        fetch(url)
         .then(res => res.json())
         .then(data => serCloths(data))
     }, [])
