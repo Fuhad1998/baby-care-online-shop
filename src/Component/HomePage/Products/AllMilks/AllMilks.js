@@ -6,7 +6,8 @@ const AllMilks = () => {
     const [allMilks, setAllMilks] = useState([]);
 
     useEffect( ()=>{
-        fetch("/data.json")
+        const url =`http://localhost:5000/products?category=milks`
+        fetch(url)
         .then( res => res.json())
         .then(data => setAllMilks(data))
     }, [])

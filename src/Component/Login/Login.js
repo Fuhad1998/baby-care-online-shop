@@ -7,7 +7,7 @@ import "./Login.css"
 
 const Login = () => {
     const { register, handleSubmit } = useForm();
-    const {loginUser, isloding, signInUsingGoole} = UseAuth();
+    const {loginUser, isloding, signInUsingGoogle} = UseAuth();
   const location = useLocation();
   const Navigate = useNavigate()
     
@@ -21,7 +21,7 @@ const Login = () => {
     };
   
     const handelGoogleSignin = () =>{
-      signInUsingGoole(location, Navigate)
+      signInUsingGoogle(location, Navigate)
     }
     return (
         <div className="container   login-container my-5 shadow-lg">

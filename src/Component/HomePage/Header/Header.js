@@ -10,7 +10,7 @@ import "./Header.css"
 
 
 const Header = () => {
-  const {user, logOut} = UseAuth();
+  const {user, logOut, admin} = UseAuth();
 
 
     return (
@@ -53,11 +53,30 @@ const Header = () => {
               <Link className='dashboard-link py-2' to="/allCloths">All Cloths</Link>
               <Link className='dashboard-link py-2' to="/allMilks">All Milks</Link>
               <Link className='dashboard-link py-2' to="/allToys">All Toys</Link>
-              <Link className='dashboard-link py-2' to="/reviews">Reviews</Link>
-              <Link className='dashboard-link py-2' to="/myOrders">My Order</Link>
-              <Link className='dashboard-link py-2' to="/manageAllOrders">Manage All Orders</Link>
-              <Link className='dashboard-link py-2' to="/addAProduct">Add A Product</Link>
-              <Link className='dashboard-link py-2' to="/makeAdmin">Make Admin</Link>
+
+              {
+                user?.email && <Link className='dashboard-link py-2' to="/reviews">Reviews</Link>
+              }
+              
+              {
+                user?.email && <Link className='dashboard-link py-2' to="/myOrders">My Order</Link>
+              }
+              {
+                admin &&  <Link className='dashboard-link py-2' to="/manageAllOrders">Manage All Orders</Link>
+              }
+              
+              {
+                admin &&  <Link className='dashboard-link py-2' to="/addAProduct">Add A Product</Link>
+              }
+              {
+                admin && <Link className='dashboard-link py-2' to="/makeAdmin">Make Admin</Link>
+              }
+              
+              
+
+             
+              
+             
 
              
               

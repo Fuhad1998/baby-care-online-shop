@@ -22,7 +22,7 @@ const UseFirebase = () => {
     setIsloding(true)
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
-        // saveUser(email, name, 'POST')
+        saveUser(email, name, 'POST')
         const user = userCredential.user;
         
       })
@@ -54,12 +54,12 @@ const UseFirebase = () => {
   }
 
 
-  const signInUsingGoole = (location, Navigate) =>{
+  const signInUsingGoogle = (location, Navigate) =>{
     setIsloding(true)
     signInWithPopup(auth, googleProvider)
     .then((result) => {
         const user = result.user;
-        // saveUser(user.email, user.displayName, 'PUT')
+        saveUser(user.email, user.displayName, 'PUT')
         const destination = location?.state?.from || '/';
         Navigate(destination);
       
@@ -112,6 +112,28 @@ const UseFirebase = () => {
   }, [])
 
 
+  useEffect(() =>{
+    fetch(`https://hidden-refuge-86930.herokuapp.com/users/${user.email}`)
+    .then(res =>res.json())
+    .then(data => setAdmin(data.admin))
+
+  }, [user.email])
+
+
+
+  const saveUser = (email, displayName, method) =>{
+    const user = {email, displayName};
+    fetch('http://localhost:5000/users', {
+      method: method,
+      headers:{
+        'content-type':'application/json'
+      },
+      body: JSON.stringify(user)
+    })
+    .then()
+  }
+
+
 
 
   const handelAddToCart = (products) =>{
@@ -129,13 +151,14 @@ const UseFirebase = () => {
 
     return{
         loginUser,
-        signInUsingGoole,
+        signInUsingGoogle,
         registerUser,
         logOut,
         user,
         isloding,
         handelAddToCart,
         carts,
+        admin
        
     }
 
