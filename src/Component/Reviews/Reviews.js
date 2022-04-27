@@ -5,7 +5,7 @@ import "./Reviews.css"
 const Reviews = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
-    fetch("http://localhost:5000/reviews", {
+    fetch("https://secure-falls-76091.herokuapp.com/reviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",

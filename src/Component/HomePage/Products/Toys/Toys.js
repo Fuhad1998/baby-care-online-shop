@@ -5,7 +5,8 @@ const Toys = () => {
     const [toys, setToys] = useState([]);
 
     useEffect(()=>{
-        fetch("/toy.json")
+        const url =`https://secure-falls-76091.herokuapp.com/products?category=toys`
+        fetch(url)
         .then(res => res.json())
         .then(data => setToys(data.slice(0, 8)))
     }, [])

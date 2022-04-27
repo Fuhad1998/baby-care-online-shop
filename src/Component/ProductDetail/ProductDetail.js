@@ -10,17 +10,19 @@ const ProductDetail = () => {
     const {handelAddToCart} = UseAuth()
     const { id } = useParams();
 
-    // console.log(product)
+    console.log(product)
 
-    const item = product.find((pd) => pd.id == id);
-    console.log(item)
+    const item = product.find((pd) => pd.id !== id);
+    // console.log(item)
 
     useEffect(() => {
-        fetch("/cloth.json")
+      const url =`https://secure-falls-76091.herokuapp.com/products?category=cloths`
+      
+        fetch(url)
           .then((res) => res.json())
           .then((data) => setProduct(data));
-
-          fetch("/data.json")
+          const urlMilks =`https://secure-falls-76091.herokuapp.com/products?category=milks`
+          fetch(urlMilks)
           .then((res) => res.json())
           .then((data) => setProduct(data));
 

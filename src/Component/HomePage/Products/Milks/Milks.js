@@ -5,7 +5,7 @@ const Milks = () => {
   const [milks, setMilks] = useState([]);
 
   useEffect(() => {
-    const url =`http://localhost:5000/products?category=milks`
+    const url =`https://secure-falls-76091.herokuapp.com/products?category=milks`
     fetch(url)
       .then((res) => res.json())
       .then((data) => setMilks(data?.slice(0, 8)));

@@ -3,13 +3,14 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate} from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
-const Navigate = useNavigate;
+
 
 const Register = () => {
+  const Navigate = useNavigate();
     const {registerUser, isloding} = UseAuth();
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
-    console.log(data)
+    // console.log(data)
     registerUser(data.email, data.password, data.name, Navigate)
     alert("Register success");
     

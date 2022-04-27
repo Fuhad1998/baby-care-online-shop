@@ -9,7 +9,7 @@ const MakeAdmin = () => {
     const onSubmit = (data) => {
       setEmail(data);
       // const user = {email}
-      fetch("http://localhost:5000/users/admin", {
+      fetch("https://secure-falls-76091.herokuapp.com/users/admin", {
         method: "PUT",
         headers: {
           "content-type": "application/json",

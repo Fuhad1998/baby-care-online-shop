@@ -5,7 +5,7 @@ const AllToys = () => {
     const [allToys, setAllToys] = useState([])
 
     useEffect(()=>{
-        const url =`http://localhost:5000/products?category=toys`
+        const url =`https://secure-falls-76091.herokuapp.com/products?category=toys`
         fetch(url)
         .then(res => res.json())
         .then(data => setAllToys(data))

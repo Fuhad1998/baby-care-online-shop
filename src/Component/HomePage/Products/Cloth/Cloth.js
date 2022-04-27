@@ -8,7 +8,7 @@ import "./Cloth.css"
 
 const Cloth = ({cloth}) => {
   const {handelAddToCart} = UseAuth()
-  console.log(cloth)
+  // console.log(cloth)
     const {name, img, price, id} = cloth;
     return (
         <CardGroup className='col-md-3 col-xs-12 col-sm-12 py-2 '>

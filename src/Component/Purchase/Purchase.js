@@ -19,7 +19,7 @@ const Purchase = () => {
     
     data.totalPrice = cartTotal;
     data.product = orderName;
-    fetch("http://localhost:5000/orders", {
+    fetch("https://secure-falls-76091.herokuapp.com/orders", {
         method: "POST",
         headers: {
           "content-type": "application/json",

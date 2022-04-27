@@ -1,7 +1,7 @@
 import initializeAuthentication from "../Component/Firebase/Firebase.initialize";
 import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signOut, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 
 initializeAuthentication();
 const UseFirebase = () => {
@@ -113,7 +113,7 @@ const UseFirebase = () => {
 
 
   useEffect(() =>{
-    fetch(`https://hidden-refuge-86930.herokuapp.com/users/${user.email}`)
+    fetch(`https://secure-falls-76091.herokuapp.com/users/${user.email}`)
     .then(res =>res.json())
     .then(data => setAdmin(data.admin))
 
@@ -123,7 +123,7 @@ const UseFirebase = () => {
 
   const saveUser = (email, displayName, method) =>{
     const user = {email, displayName};
-    fetch('http://localhost:5000/users', {
+    fetch('https://secure-falls-76091.herokuapp.com/users', {
       method: method,
       headers:{
         'content-type':'application/json'
