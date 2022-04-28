@@ -9,3 +9,11 @@
 .tk-span{
 margin-left: 200px;
 }
+.checkout-btn{
+    text-decoration: none;
+    color: white;
+}
+.checkout-btn:hover{
+    
+    color: white;
+}

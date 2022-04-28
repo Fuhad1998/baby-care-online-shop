@@ -14,3 +14,7 @@
 .link-cart:hover{
     color: white;
 }
+.detail-container{
+    padding-left: 50px;
+    border-left: 1px solid grey;
+}

@@ -37,7 +37,7 @@ const ProductDetail = () => {
               
             </Card>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-6">
+          <div className="col-xs-12 col-sm-12 col-md-6 detail-container">
             <h1 className=" product-det">{item?.name}</h1>
             <p className="product-det">Description: {item?.description}</p>
             <h4 className=" text-danger product-det pb-2">Price: {item?.price}</h4>

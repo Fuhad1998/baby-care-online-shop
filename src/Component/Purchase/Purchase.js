@@ -54,7 +54,7 @@ const Purchase = () => {
 //   console.log(cartTotal)
   return (
     <div className="row p-5">
-      <div className="col-xs-12 col-md-8 col-sm-12">
+      <div className="col-xs-12 col-md-8 col-sm-12 order-from">
           <h1>Order Details</h1>
         <form className="product-from" onSubmit={handleSubmit(onSubmit)}>
           <input
