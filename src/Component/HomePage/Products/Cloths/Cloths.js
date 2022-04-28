@@ -9,7 +9,7 @@ const Cloths = () => {
         const url =`https://secure-falls-76091.herokuapp.com/products?category=cloths`
         fetch(url)
         .then(res => res.json())
-        .then(data => serCloths(data))
+        .then(data => serCloths(data.slice(0, 4)))
     }, [])
     return (
         <div className='shadow bg-white'>

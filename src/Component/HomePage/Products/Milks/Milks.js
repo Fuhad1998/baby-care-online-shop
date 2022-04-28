@@ -8,7 +8,7 @@ const Milks = () => {
     const url =`https://secure-falls-76091.herokuapp.com/products?category=milks`
     fetch(url)
       .then((res) => res.json())
-      .then((data) => setMilks(data?.slice(0, 8)));
+      .then((data) => setMilks(data?.slice(0, 4)));
   }, []);
   return (
     <div>

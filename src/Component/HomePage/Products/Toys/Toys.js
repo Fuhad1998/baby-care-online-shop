@@ -8,7 +8,7 @@ const Toys = () => {
         const url =`https://secure-falls-76091.herokuapp.com/products?category=toys`
         fetch(url)
         .then(res => res.json())
-        .then(data => setToys(data.slice(0, 8)))
+        .then(data => setToys(data.slice(0, 4)))
     }, [])
     return (
         <div className='shadow bg-white my-5'>
