@@ -7,7 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 const CartProduct = ({carts}) => {
     return (
       
-        <Table responsive striped bordered hover size="sm">
+        <Table className='table-container ' responsive striped bordered hover size="sm">
           
         <thead>
           <tr>

@@ -18,7 +18,7 @@ const Header = () => {
       <Container fluid  >
       <Navbar.Brand href="#" className=' web-name'>Baby Care Shop</Navbar.Brand>
           <Link  className="header-link  home-link" to="/homes">Home</Link>
-          <Link  className="header-link  py-2" to="/addToCart">Cart</Link>
+          
           
 
           {
@@ -30,7 +30,7 @@ const Header = () => {
             :
             <Link  className="header-link  px-2" to="/login">Log-In</Link>
           }
-          
+          <Link  className="header-link  px-2" to="/addToCart">Cart</Link>
           
         
         

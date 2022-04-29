@@ -7,7 +7,8 @@ const AddToCart = () => {
     const {carts} = UseAuth();
     // console.log(carts)
     return (
-        <div className='row p-2 my-5'>
+       <div className='container'>
+            <div className='row p-2 my-5'>
             <div className='col-xs-12 col-sm-12 col-md-8 '>
             <h1>Cart Details</h1>
                 <CartProduct
@@ -22,6 +23,7 @@ const AddToCart = () => {
             
 
         </div>
+       </div>
     );
 };
 

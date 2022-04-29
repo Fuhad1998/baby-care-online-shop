@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-
+import "./Purchase.css"
 import UseAuth from "../../Hooks/UseAuth";
 
 const Purchase = () => {
@@ -11,7 +11,7 @@ const Purchase = () => {
   const { register, handleSubmit } = useForm();
 
   let orderName = carts.map(product =>(product.name))
-  console.log(orderName)
+  // console.log(orderName)
   
 
 
@@ -33,9 +33,9 @@ const Purchase = () => {
             alert("Successful Add Yours Orders");
           }
         });
-        console.log(data)
+        // console.log(data)
   };
-  console.log(carts)
+  // console.log(carts)
   
 
   
@@ -53,10 +53,11 @@ const Purchase = () => {
 
 //   console.log(cartTotal)
   return (
+    <div className="container ">
     <div className="row p-5">
-      <div className="col-xs-12 col-md-8 col-sm-12 order-from">
+      <div className="col-xs-12 col-md-6 col-sm-12 purchase-container  pt-3">
           <h1>Order Details</h1>
-        <form className="product-from" onSubmit={handleSubmit(onSubmit)}>
+        <form className="product-from " onSubmit={handleSubmit(onSubmit)}>
           <input
             className="input-btn p-2"
             {...register("name")}
@@ -111,14 +112,15 @@ const Purchase = () => {
           />
         </form>
       </div>
-      <div className="col-xs-12 col-md-4 col-sm-12">
-        <h2 className="cart-text p-2 ">Your Order </h2>
-        <h4 className="cart-text p-2 ">Item: {}</h4>
+      <div className="col-xs-12 col-md-6 col-sm-12 order-container pt-3 shadow-lg">
+       <div>
+       <h2 className="cart-text p-2 ">Your Order </h2>
+        <h4 className="cart-text p-2 ">Item: {carts?.length}</h4>
         <h6 className="cart-text p-2 ">
           Sub-Total: <span className="tk-span">Tk.{cartTotal}</span>
         </h6>
         <h6 className="cart-text p-2 ">
-          VAT: <span className="tk-span px-4">Tk. 0.00</span>
+          VAT: <span className="tk-span ">Tk. 0.00</span>
         </h6>
         <h6 className="cart-text p-2 ">
           Shipping: <span className="tk-span">Tk. 0.00</span>
@@ -126,7 +128,9 @@ const Purchase = () => {
         <h4 className="cart-text p-2 cart-total">
           Total: <span className="tk-span p-2">Tk.{cartTotal}</span>
         </h4>
+       </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -29,7 +29,7 @@ const ProductDetail = () => {
       }, []);
    
     return (
-        <div className="container my-5">
+        <div className="container  my-5">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-6">
             <Card style={{ width: "25rem" }}>

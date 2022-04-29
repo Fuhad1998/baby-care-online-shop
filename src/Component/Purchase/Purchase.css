@@ -1,0 +1,29 @@
+.purchase-container{
+    width: 440px;
+    height: auto;
+    background-color: white;
+    
+} 
+
+.product-from{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.input-btn{
+    width: 380px;
+    
+}
+
+.order-container{
+    background-color: white;
+    width: 440px;
+    height: auto;
+   display: flex;
+    justify-content: center;
+    margin-left: 150px;
+} 
