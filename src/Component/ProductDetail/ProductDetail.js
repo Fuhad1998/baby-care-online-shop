@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Card } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import UseAuth from '../../Hooks/UseAuth';
+import SimilarProducts from '../SimilarProducts/SimilarProducts';
 import "./ProductDetail.css"
 
 const ProductDetail = () => {
@@ -10,10 +11,11 @@ const ProductDetail = () => {
     const {handelAddToCart} = UseAuth()
     const { id } = useParams();
 
-    console.log(product)
+    // console.log(product)
 
     const item = product.find((pd) => pd.id !== id);
-    // console.log(item)
+    // const category = product.find((pd) => pd.id !== category);
+    // console.log(category)
 
     useEffect(() => {
       const url =`https://secure-falls-76091.herokuapp.com/products?category=cloths`
@@ -29,7 +31,8 @@ const ProductDetail = () => {
       }, []);
    
     return (
-        <div className="container  my-5">
+     <div>
+          <div className="container productDetail-container pb-5 my-5">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-6">
             <Card style={{ width: "25rem" }}>
@@ -46,7 +49,11 @@ const ProductDetail = () => {
             <Button onClick={()=>handelAddToCart(item)} className='text-white bg-danger buy-now-btn px-3'>Add To Cart</Button>
           </div>
         </div>
+        
       </div>
+      <SimilarProducts></SimilarProducts>
+     </div>
+      
     );
 };
 

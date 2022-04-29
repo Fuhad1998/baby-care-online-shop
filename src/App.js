@@ -22,6 +22,7 @@ import ProductDetail from "./Component/ProductDetail/ProductDetail";
 import Purchase from "./Component/Purchase/Purchase";
 import Register from "./Component/Register/Register";
 import Reviews from "./Component/Reviews/Reviews";
+import SimilarProducts from "./Component/SimilarProducts/SimilarProducts";
 import Terms from "./Component/Terms/Terms";
 import AuthProvider from "./Context/AuthProvider/AuthProvider";
 
@@ -35,6 +36,8 @@ function App() {
           
           <Route path="/purchase" element={<PrivateRoute><Purchase/></PrivateRoute>}></Route>
           <Route path="/allToys" element={<AllToys />}></Route>
+          <Route path="/similarProducts" element={<SimilarProducts />}></Route>
+          
           <Route path="/makeAdmin" element={<MakeAdmin />}></Route>
           <Route path="/addAProduct" element={<AddAProduct />}></Route>
           <Route path="/manageAllOrders" element={<ManageAllOrders />}></Route>
