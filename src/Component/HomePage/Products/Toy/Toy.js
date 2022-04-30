@@ -15,7 +15,7 @@ const Toy = ({toy}) => {
           <Card.Text className='fs-5 text-danger'>
             Price: {price}
           </Card.Text>
-          <Button className='text-white bg-danger buy-now-btn px-3'><Link to="/addToCart" className='link-cart'>Add To Cart</Link></Button>
+          <Button className='text-white bg-dark buy-now-btn px-3'><Link to="/addToCart" className='link-cart'>Add To Cart</Link></Button>
         </Card.Body>
         
       </Card>

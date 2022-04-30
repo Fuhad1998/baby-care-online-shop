@@ -36,9 +36,7 @@ const MyOrder = ({myOrders}) => {
                   <Button variant="outlined" startIcon={<DeleteIcon />}>
                     Delete
                   </Button>
-                  <Button variant="outlined" startIcon={<UpdateIcon />}>
-                  Update
-                  </Button>
+                 
                 </Stack> */}
               
               </td>

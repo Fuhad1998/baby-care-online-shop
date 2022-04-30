@@ -41,7 +41,7 @@ const Register = () => {
           />
           <br />
           <input
-            className="btn-submit input-btn btn btn-danger login-bac-color text-white fs-5 rounded"
+            className="btn-submit input-btn btn btn-dark login-bac-color text-white fs-5 rounded"
             type="submit"
             value="Register"
           />

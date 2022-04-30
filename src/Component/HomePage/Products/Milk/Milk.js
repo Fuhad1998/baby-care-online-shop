@@ -22,7 +22,7 @@ const Milk = ({milk}) => {
           <Card.Text className='fs-5 text-danger'>
             Price: {price}
           </Card.Text>
-          <Button onClick={()=>handelAddToCart(milk)} className='text-white bg-danger buy-now-btn px-3'>Add To Cart</Button>
+          <Button onClick={()=>handelAddToCart(milk)} className='text-white bg-dark buy-now-btn px-3'>Add To Cart</Button>
         </Card.Body>
         
       </Card>

@@ -16,11 +16,11 @@ const AllToy = ({ allToy }) => {
         </Link>
           <Card.Body className="p-4">
             <Card.Title> {name}</Card.Title>
-            <Card.Text className="fs-5 text-danger">Price: {price}</Card.Text>
+            <Card.Text className="fs-5 text-dark">Price: {price}</Card.Text>
             
             <Button
               onClick={() => handelAddToCart(allToy)}
-              className="text-white bg-danger buy-now-btn px-3"
+              className="text-white bg-dark buy-now-btn px-3"
             >
               Add To Cart
             </Button>

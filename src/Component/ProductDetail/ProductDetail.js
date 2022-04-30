@@ -46,7 +46,7 @@ const ProductDetail = () => {
             <h4 className=" text-danger product-det pb-2">Price: {item?.price}</h4>
             <h4 className=" product-det">In Stock Order Soon</h4>
             
-            <Button onClick={()=>handelAddToCart(item)} className='text-white bg-danger buy-now-btn px-3'>Add To Cart</Button>
+            <Button onClick={()=>handelAddToCart(item)} className='text-white bg-dark buy-now-btn px-3'>Add To Cart</Button>
           </div>
         </div>
         

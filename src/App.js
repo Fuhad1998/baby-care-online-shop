@@ -3,6 +3,7 @@ import "./App.css";
 import AboutUs from "./Component/AboutUs/AboutUs";
 import AddAProduct from "./Component/AddAProduct/AddAProduct";
 import AddToCart from "./Component/AddToCart/AddToCart";
+import ClintSays from "./Component/ClintSays/ClintSays";
 import Delivery from "./Component/Delivery/Delivery";
 import Footer from "./Component/HomePage/Footer/Footer";
 import Header from "./Component/HomePage/Header/Header";
@@ -36,6 +37,7 @@ function App() {
           
           <Route path="/purchase" element={<PrivateRoute><Purchase/></PrivateRoute>}></Route>
           <Route path="/allToys" element={<AllToys />}></Route>
+          <Route path="/clintSays" element={<ClintSays />}></Route>
           <Route path="/similarProducts" element={<SimilarProducts />}></Route>
           
           <Route path="/makeAdmin" element={<MakeAdmin />}></Route>
