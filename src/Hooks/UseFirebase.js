@@ -1,7 +1,7 @@
 import initializeAuthentication from "../Component/Firebase/Firebase.initialize";
 import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signOut, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { useEffect, useState } from "react";
-import { Button, Form, Modal } from "react-bootstrap";
+
 
 
 initializeAuthentication();
