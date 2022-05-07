@@ -1,6 +1,7 @@
 import initializeAuthentication from "../Component/Firebase/Firebase.initialize";
 import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, signOut, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { useEffect, useState } from "react";
+import { Button, Form, Modal } from "react-bootstrap";
 
 
 initializeAuthentication();
@@ -9,10 +10,8 @@ const UseFirebase = () => {
     const [isloding, setIsloding] = useState(true);
   const [admin, setAdmin] = useState(false)
   const [carts, setCarts] = useState([])
-
-
-
-
+  
+ 
 
     const auth = getAuth();
   const googleProvider = new GoogleAuthProvider();
@@ -142,6 +141,13 @@ const UseFirebase = () => {
   }
 
 
+  // add modul for update products
+ 
+
+
+
+
+
   // let navigate = useNavigate();
   // function handleClick(order) {
   //   navigate("/purchase");
@@ -158,7 +164,8 @@ const UseFirebase = () => {
         isloding,
         handelAddToCart,
         carts,
-        admin
+        admin,
+        
        
     }
 

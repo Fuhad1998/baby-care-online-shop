@@ -1,7 +1,13 @@
+import { Button, Stack } from '@mui/material';
 import React from 'react';
 import { Table } from 'react-bootstrap';
+import DeleteIcon from '@mui/icons-material/Delete';
 
-const MyOrder = ({myOrders}) => {
+const MyOrder = ({myOrders, handelDeleteOrders}) => {
+ 
+
+
+
     return (
         <Table responsive striped bordered hover size="sm">
         <thead>
@@ -32,12 +38,15 @@ const MyOrder = ({myOrders}) => {
               <td>{myOrder?.totalPrice}</td>
               <td>
                 {" "}
-                {/* <Stack direction="row" spacing={2}>
-                  <Button variant="outlined" startIcon={<DeleteIcon />}>
+                <Stack direction="row" spacing={2}>
+                  <Button variant="outlined"
+                  
+                   startIcon={<DeleteIcon />}>
                     Delete
                   </Button>
                  
-                </Stack> */}
+                </Stack>
+                
               
               </td>
             </tr>
