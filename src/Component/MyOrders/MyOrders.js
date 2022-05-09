@@ -16,12 +16,13 @@ const MyOrders = () => {
     const handelDeleteOrders = id =>{
         const proceed = window.confirm('Are You Sure You Want TO Delete')
         if(proceed){
-            const url = `https://secure-falls-76091.herokuapp.com/orders/${id}`
+            const url = `http://localhost:5000/orders/${id}`
             fetch(url, {
               method: 'DELETE'
             })
             .then(res => res.json())
             .then(data => {
+              console.log(data, "clicked")
               if(data.deletedCount > 0){
                 alert('deleted successful')
                 const remainingUser = myOrders?.filter(order => order._id!==id)

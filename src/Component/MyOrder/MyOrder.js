@@ -40,7 +40,8 @@ const MyOrder = ({myOrders, handelDeleteOrders}) => {
                 {" "}
                 <Stack direction="row" spacing={2}>
                   <Button variant="outlined"
-                  
+                  className='text-danger'
+                  onClick={() => handelDeleteOrders(myOrder?._id)}
                    startIcon={<DeleteIcon />}>
                     Delete
                   </Button>

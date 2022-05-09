@@ -26,3 +26,40 @@
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [error] 
 [error] Error: Failed to get Firebase project baby-care-online-shop. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-07T20:09:00.456Z] ----------------------------------------------------------------------
+[debug] [2022-05-07T20:09:00.459Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-07T20:09:00.460Z] CLI Version:   10.7.1
+[debug] [2022-05-07T20:09:00.460Z] Platform:      win32
+[debug] [2022-05-07T20:09:00.460Z] Node Version:  v18.0.0
+[debug] [2022-05-07T20:09:00.468Z] Time:          Sun May 08 2022 02:09:00 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-05-07T20:09:00.469Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-07T20:09:00.569Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-07T20:09:00.570Z] > authorizing via signed-in user (fuhadrare444@gmail.com)
+[debug] [2022-05-07T20:09:00.570Z] [iam] checking project baby-care-online-shop for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-07T20:09:00.573Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/baby-care-online-shop:testIamPermissions [none]
+[debug] [2022-05-07T20:09:00.574Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/baby-care-online-shop:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-07T20:09:12.035Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/baby-care-online-shop:testIamPermissions
+[debug] [2022-05-07T20:09:12.040Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/baby-care-online-shop [none]
+[debug] [2022-05-07T20:09:23.355Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/baby-care-online-shop
+[debug] [2022-05-07T20:10:05.968Z] ----------------------------------------------------------------------
+[debug] [2022-05-07T20:10:05.972Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-07T20:10:05.974Z] CLI Version:   10.7.1
+[debug] [2022-05-07T20:10:05.974Z] Platform:      win32
+[debug] [2022-05-07T20:10:05.975Z] Node Version:  v18.0.0
+[debug] [2022-05-07T20:10:05.976Z] Time:          Sun May 08 2022 02:10:05 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-05-07T20:10:05.976Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-07T20:10:06.084Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-07T20:10:06.084Z] > authorizing via signed-in user (fuhadrare444@gmail.com)
+[debug] [2022-05-07T20:10:06.085Z] [iam] checking project baby-care-online-shop for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-07T20:10:06.090Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/baby-care-online-shop:testIamPermissions [none]
+[debug] [2022-05-07T20:10:06.090Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/baby-care-online-shop:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-07T20:10:27.295Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/baby-care-online-shop:testIamPermissions
+[debug] [2022-05-07T20:10:27.299Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/baby-care-online-shop [none]
+[debug] [2022-05-07T20:10:48.364Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/baby-care-online-shop
+[debug] [2022-05-07T20:10:49.636Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/baby-care-online-shop
+    at RetryOperation._fn (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:240:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project baby-care-online-shop. Please make sure the project exists and your account has permission to access it.
