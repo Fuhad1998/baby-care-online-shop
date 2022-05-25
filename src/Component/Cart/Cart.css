@@ -1,14 +1,8 @@
-.cart-text{
-    text-align: start;
-    margin-left: 20px;
 
-}
 .cart-total{
-    border-top: 1px solid grey;
+    border-top: 2px solid grey;
 }
-.tk-span{
-margin-left: 200px;
-}
+
 .checkout-link{
     text-decoration: none;
     color: white;
@@ -18,14 +12,16 @@ margin-left: 200px;
     color: white;
 }
 
-.cart-container{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    
-}
 
 .checkout-btn{
     width: 180px;
     height: auto;
+}
+
+.ul-container{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-container ul{
+    font-size: large;
 }

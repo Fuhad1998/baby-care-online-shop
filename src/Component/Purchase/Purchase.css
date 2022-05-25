@@ -22,8 +22,20 @@
 .order-container{
     background-color: white;
     width: 440px;
-    height: auto;
-   display: flex;
-    justify-content: center;
+    height: 400px;
+   /* display: flex;
+    justify-content: center; */
     margin-left: 150px;
 } 
+
+.cart-total{
+    border-top: 2px solid grey;
+}
+
+.ul-container{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-container ul{
+    font-size: large;
+}

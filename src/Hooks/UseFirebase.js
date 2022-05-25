@@ -111,6 +111,7 @@ const UseFirebase = () => {
   }, [])
 
 
+   // admin
   useEffect(() =>{
     fetch(`https://secure-falls-76091.herokuapp.com/users/${user.email}`)
     .then(res =>res.json())

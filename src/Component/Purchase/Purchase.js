@@ -112,23 +112,28 @@ const Purchase = () => {
           />
         </form>
       </div>
-      <div className="col-xs-12 col-md-6 col-sm-12 order-container pt-3 shadow-lg">
-       <div>
-       <h2 className="cart-text p-2 ">Your Order </h2>
+
+      <div className="col-xs-12 col-md-6 col-sm-12 order-container pt-3 shadow-lg pr-4">
+      <h2 className="cart-text p-2 ">Your Order </h2>
         <h4 className="cart-text p-2 ">Item: {carts?.length}</h4>
-        <h6 className="cart-text p-2 ">
-          Sub-Total: <span className="tk-span">Tk.{cartTotal}</span>
-        </h6>
-        <h6 className="cart-text p-2 ">
-          VAT: <span className="tk-span ">Tk. 0.00</span>
-        </h6>
-        <h6 className="cart-text p-2 ">
-          Shipping: <span className="tk-span">Tk. 0.00</span>
-        </h6>
-        <h4 className="cart-text p-2 cart-total">
-          Total: <span className="tk-span p-2">Tk.{cartTotal}</span>
-        </h4>
-       </div>
+      <div className="ul-container">
+          <ul>Sub-Total:</ul>
+          <ul>Tk.{cartTotal}</ul>
+        </div>
+        <div className="ul-container">
+        <ul>Shipping:</ul>
+          <ul>Tk. 0.00</ul>
+          
+        </div>
+        <div className="ul-container">
+          <ul>VAT:</ul>
+
+          <ul>Tk. 0.00</ul>
+        </div>
+        <div className="ul-container cart-total">
+          <ul>Total:</ul>
+          <ul>Tk.{cartTotal}</ul>
+        </div>
       </div>
     </div>
     </div>
